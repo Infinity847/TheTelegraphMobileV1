@@ -63,7 +63,7 @@ window.location = "index.html"
 if (userstat == undefined)
 {
   localStorage.setItem("Telegraph||UserStat",5);
-    var userstat = localStorage.getItem("Telegraph||UserStat");  
+  userstat = localStorage.getItem("Telegraph||UserStat");  
 }
 
 function logout() {
